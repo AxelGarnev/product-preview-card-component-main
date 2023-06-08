@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 520px;
+    height: 380px;;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+}
+
+.information-box {
+    padding: 15px 40px 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information-box p {
+    line-height: 18px;
+}
+
+h1 {
+    margin: 5px 0 5px 0;
+    font-family: Fraunces, serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    font-size: 28px;
+    line-height: 28px;
+}
+
+p.perfume {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.price {
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.current-price {
+    margin: 10px 10px 10px 0;
+    font-family: Fraunces, serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+}
+
+.former-price {
+    margin: 10px 10px 10px 0;
+    text-decoration: line-through;
+}
+
+button.add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    transition: ease-in-out 0.4s;
+}
+
+button.add:hover {
+    background-color: hsl(157, 36%, 25%);
+}
+
+button.add p {
+    font-size: 10px;
+}
+
+button.add img {
+    width: 10px;
+    margin-right: 10px;
+}
